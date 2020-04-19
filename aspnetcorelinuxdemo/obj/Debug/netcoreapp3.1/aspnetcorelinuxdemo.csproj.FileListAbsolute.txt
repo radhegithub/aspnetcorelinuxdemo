@@ -9,7 +9,6 @@ C:\radhe\aspnetcorelinuxdemo\aspnetcorelinuxdemo\bin\Debug\netcoreapp3.1\aspnetc
 C:\radhe\aspnetcorelinuxdemo\aspnetcorelinuxdemo\bin\Debug\netcoreapp3.1\aspnetcorelinuxdemo.pdb
 C:\radhe\aspnetcorelinuxdemo\aspnetcorelinuxdemo\bin\Debug\netcoreapp3.1\aspnetcorelinuxdemo.Views.dll
 C:\radhe\aspnetcorelinuxdemo\aspnetcorelinuxdemo\bin\Debug\netcoreapp3.1\aspnetcorelinuxdemo.Views.pdb
-C:\radhe\aspnetcorelinuxdemo\aspnetcorelinuxdemo\obj\Debug\netcoreapp3.1\aspnetcorelinuxdemo.csprojAssemblyReference.cache
 C:\radhe\aspnetcorelinuxdemo\aspnetcorelinuxdemo\obj\Debug\netcoreapp3.1\aspnetcorelinuxdemo.csproj.CoreCompileInputs.cache
 C:\radhe\aspnetcorelinuxdemo\aspnetcorelinuxdemo\obj\Debug\netcoreapp3.1\aspnetcorelinuxdemo.MvcApplicationPartsAssemblyInfo.cache
 C:\radhe\aspnetcorelinuxdemo\aspnetcorelinuxdemo\obj\Debug\netcoreapp3.1\aspnetcorelinuxdemo.RazorAssemblyInfo.cache
