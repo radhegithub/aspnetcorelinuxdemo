@@ -9,7 +9,7 @@ FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
 COPY ["aspnetcorelinuxdemo/aspnetcorelinuxdemo.csproj", "aspnetcorelinuxdemo/"]
 RUN dotnet restore "aspnetcorelinuxdemo/aspnetcorelinuxdemo.csproj"
-COPY .
+COPY . .
 WORKDIR "/src/aspnetcorelinuxdemo"
 RUN dotnet build "aspnetcorelinuxdemo.csproj" -c Release -o /app/build
 

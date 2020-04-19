@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  aspnetcorelinuxdemo:
-    image: ${DOCKER_REGISTRY-}aspnetcorelinuxdemo
-    build:
-      context: .
-      dockerfile: aspnetcorelinuxdemo/Dockerfile
