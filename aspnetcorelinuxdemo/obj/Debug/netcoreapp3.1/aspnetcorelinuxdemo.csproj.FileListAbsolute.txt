@@ -34,4 +34,3 @@ C:\radhe\aspnetcorelinuxdemo\aspnetcorelinuxdemo\obj\Debug\netcoreapp3.1\aspnetc
 C:\radhe\aspnetcorelinuxdemo\aspnetcorelinuxdemo\obj\Debug\netcoreapp3.1\aspnetcorelinuxdemo.pdb
 C:\radhe\aspnetcorelinuxdemo\aspnetcorelinuxdemo\obj\Debug\netcoreapp3.1\aspnetcorelinuxdemo.genruntimeconfig.cache
 C:\radhe\aspnetcorelinuxdemo\aspnetcorelinuxdemo\obj\Debug\netcoreapp3.1\aspnetcorelinuxdemo.csproj.CopyComplete
-C:\radhe\aspnetcorelinuxdemo\aspnetcorelinuxdemo\obj\Debug\netcoreapp3.1\aspnetcorelinuxdemo.csprojAssemblyReference.cache
