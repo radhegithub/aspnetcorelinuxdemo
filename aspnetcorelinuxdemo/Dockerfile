@@ -10,7 +10,7 @@ WORKDIR /src
 COPY ["/aspnetcorelinuxdemo.csproj", "aspnetcorelinuxdemo/"]
 RUN dotnet restore "aspnetcorelinuxdemo/aspnetcorelinuxdemo.csproj"
 COPY . .
-WORKDIR "/src/aspnetcorelinuxdemo"
+WORKDIR "/src/"
 RUN dotnet build "aspnetcorelinuxdemo.csproj" -c Release -o /app/build
 
 FROM build AS publish
