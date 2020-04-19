@@ -1,0 +1,36 @@
+services:
+  aspnetcorelinuxdemo:
+    build:
+      context: C:\radhe\aspnetcorelinuxdemo
+      dockerfile: aspnetcorelinuxdemo/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: aspnetcorelinuxdemo
+      target: base
+    container_name: aspnetcorelinuxdemo
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: ''
+    image: aspnetcorelinuxdemo:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  ""'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - target: 80
+    - target: 443
+    tty: true
+    volumes:
+    - C:\radhe\aspnetcorelinuxdemo\aspnetcorelinuxdemo:/app:rw
+    - C:\Users\jenkinvm\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\jenkinvm\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\jenkinvm\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Users\jenkinvm\.nuget\packages:/root/.nuget/packages:ro
+    - C:\radhe\aspnetcorelinuxdemo:/src:rw
+version: '3.4'

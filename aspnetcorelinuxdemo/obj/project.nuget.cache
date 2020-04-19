@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yGjvVb4zrmWhUSpy2tSPo7EW7KqBKyRJn/4FmQr12XNxSzNxY7f2a/DvD+6gmdAa08kta2BxjLnNbqIsn4tuCg==",
+  "success": true,
+  "projectFilePath": "C:\\radhe\\aspnetcorelinuxdemo\\aspnetcorelinuxdemo\\aspnetcorelinuxdemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jenkinvm\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.8\\microsoft.visualstudio.azure.containers.tools.targets.1.10.8.nupkg.sha512"
+  ],
+  "logs": []
+}
