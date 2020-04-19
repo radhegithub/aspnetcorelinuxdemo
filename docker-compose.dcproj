@@ -3,7 +3,7 @@
   <PropertyGroup Label="Globals">
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
-    <ProjectGuid>4c42f1c0-aba5-4dff-bba0-0c41bbfc859c</ProjectGuid>
+    <ProjectGuid>f634b84a-1063-48cf-8d8a-e49e55d81df4</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}</DockerServiceUrl>
     <DockerServiceName>aspnetcorelinuxdemo</DockerServiceName>
