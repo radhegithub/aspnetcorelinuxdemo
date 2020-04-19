@@ -1,0 +1,11 @@
+C:\radhe\aspnetcorelinuxdemo\bin\Debug\aspnetcorelinuxdemo.Views.dll
+C:\radhe\aspnetcorelinuxdemo\bin\Debug\aspnetcorelinuxdemo.Views.pdb
+C:\radhe\aspnetcorelinuxdemo\bin\Debug\appsettings.Development.json
+C:\radhe\aspnetcorelinuxdemo\bin\Debug\appsettings.json
+C:\radhe\aspnetcorelinuxdemo\bin\Debug\Properties\launchSettings.json
+C:\radhe\aspnetcorelinuxdemo\bin\Debug\aspnetcorelinuxdemo.exe
+C:\radhe\aspnetcorelinuxdemo\bin\Debug\aspnetcorelinuxdemo.dll
+C:\radhe\aspnetcorelinuxdemo\bin\Debug\aspnetcorelinuxdemo.pdb
+C:\radhe\aspnetcorelinuxdemo\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+C:\radhe\aspnetcorelinuxdemo\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\radhe\aspnetcorelinuxdemo\obj\Debug\docker-compose.dcproj.CopyComplete
