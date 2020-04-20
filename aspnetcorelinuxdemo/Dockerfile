@@ -7,7 +7,7 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
-COPY ["aspnetcorelinuxdemo.csproj", "aspnetcorelinuxdemo/"]
+COPY ["aspnetcorelinuxdemo/aspnetcorelinuxdemo.csproj", "aspnetcorelinuxdemo/"]
 RUN dotnet restore "aspnetcorelinuxdemo.csproj"
 COPY . .
 WORKDIR "/src/aspnetcorelinuxdemo"
